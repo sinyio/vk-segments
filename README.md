@@ -63,7 +63,7 @@ cd backend
 npm start
 ```
 Сервер будет доступен по адресу:  
-👉 http://localhost:3000
+👉 http://localhost:5000
 
 #### Запуск фронтенда
 ```bash
@@ -95,9 +95,9 @@ npm run dev
 
 ## 🛠 Используемые технологии
 
-- **Backend:** Node.js, Express, Helmet, CORS, Morgan
+- **Backend:** Node.js, Express, CORS,
 - **Frontend:** React, Vite
-- **Хранение:** In-memory (можно заменить на БД, например PostgreSQL или MongoDB)
+- **Хранение:** In-memory
 
 ---
 
