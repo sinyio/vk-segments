@@ -1,0 +1,26 @@
+{
+  "name": "vk-segments-service",
+  "version": "1.0.0",
+  "description": "Сервис для управления пользователями и сегментами VK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["vk", "segments", "users", "experiments"],
+  "author": "VK Team",
+  "license": "MIT"
+}
