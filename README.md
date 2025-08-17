@@ -95,7 +95,7 @@ npm run dev
 
 ## 🛠 Используемые технологии
 
-- **Backend:** Node.js, Express, CORS,
+- **Backend:** Node.js, Express, CORS
 - **Frontend:** React, Vite
 - **Хранение:** In-memory
 
